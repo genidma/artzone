@@ -1,1 +1,39 @@
-<h1>Hello world</h1>
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+ <div class="carousel-inner">
+    <div class="item active">
+    	<%= image_tag 'image1a.jpg', :class => 'img-responsive' %>
+      	<div class="Lesser artists borrow, great artists steal - Igor Stravinsky">
+        
+      </div>
+    </div>
+
+    <div class="item active">
+    	<%= image_tag 'image2a.jpg', :class => 'img-responsive' %>
+      	<div class="All art is but imitation of nature - Lucius Annaeus Seneca">
+      	</div>
+    </div>
+
+    <div class="item active">
+    	<%= image_tag 'image3a.jpg', :class => 'img-responsive' %>
+      	<div class="I don't want life to imitate art. I want life to be art - Ernst Fischer">
+      	</div>
+    </div>
+    
+ </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
