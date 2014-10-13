@@ -49,3 +49,10 @@
     <span class="glyphicon glyphicon-chevron-right"></span>
   </a>
 </div>
+
+
+<% if current_user && current_user.artist.blank? %>
+  <h1><%= link_to "Create an artist profile", new_artist_path %></h1>
+<% end %>
+
+
